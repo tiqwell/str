@@ -2,5 +2,10 @@
 
 long long itc_len(std::string str)
 {
-	return str.size();
+	int a = 0;
+	for(int i = 0; str[i] != '\0'; i++)
+	{
+		a++;
+	}
+	return a;
 }
