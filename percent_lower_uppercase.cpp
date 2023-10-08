@@ -6,9 +6,9 @@ double itc_percent_lower_uppercase(std::string str)
 
 	for(int i = 0; i < itc_len(str); i++)
 	{
-		if (isupper(str[i]))
+		if (str[i] >= 'A' && str[i] <= 'Z')
 			upper++;
-		if (islower(str[i]))
+		if (str[i] >= 'a' && str[i] <= 'z')
 			lower++;
 	}
 	return upper / lower;
