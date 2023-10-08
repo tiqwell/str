@@ -9,7 +9,7 @@ std::string itc_slice_str(std::string str, int start, int end)
 	{
 		for (int i = start; i <= itc_len(str); i++)
 		{
-			res.push_back(str[i]);
+			res +=(str[i]);
 		}
 		return res;
 	}
@@ -17,7 +17,7 @@ std::string itc_slice_str(std::string str, int start, int end)
 	{
 		for (int i = start; i <= end; i++)
 		{
-			res.push_back(str[i]);
+			res += (str[i]);
 		}
 		return res;
 	}
