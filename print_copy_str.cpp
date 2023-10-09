@@ -1,4 +1,4 @@
-#include "str.h"
+#include "str_easy.h"
 
 void itc_print_copy_str(std::string str, int number)
 {
