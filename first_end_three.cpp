@@ -1,4 +1,4 @@
-#include "str.h"
+#include "str_easy.h"
 
 void itc_first_end_three(std::string str)
 {
