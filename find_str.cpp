@@ -1,4 +1,4 @@
-#include "str.h"
+#include "str_easy.h"
 
 int itc_find_str(std::string str1, std::string str2) {
     int len1 = itc_len(str1);
