@@ -1,4 +1,4 @@
-#include "str.h"
+#include "str_easy.h"
 
 int itc_count_char_in_str(char ch, std::string str) 
 {
