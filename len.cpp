@@ -1,4 +1,4 @@
-#include "str.h"
+#include "str_easy.h"
 
 long long itc_len(std::string str)
 {
