@@ -16,5 +16,5 @@ std::string itc_cmp_str(std::string str1, std::string str2, int num);
 int itc_find_str(std::string str1, std::string str2);
 std::string itc_three_str(std::string str1, std::string str2, std::string str3);
 int itc_max_char_on_end(std::string str);
-bool itc_equal_reverce(string str);
+bool itc_equal_reverce(std::string str);
 
