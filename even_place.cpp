@@ -1,4 +1,4 @@
-#include "str.h"
+#include "str_easy.h"
 
 std::string itc_even_place(std::string str)
 {
