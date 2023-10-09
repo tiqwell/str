@@ -1,4 +1,4 @@
-#include "str.h"
+#include "str_easy.h"
 
 int itc_max_char_on_end(std::string str)
 {
