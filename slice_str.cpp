@@ -1,4 +1,4 @@
-#include "str.h"
+#include "str_easy.h"
 
 std::string itc_slice_str(std::string str, int start, int end)
 {
