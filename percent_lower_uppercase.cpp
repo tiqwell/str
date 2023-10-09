@@ -1,4 +1,4 @@
-#include "str.h"
+#include "str_easy.h"
 
 double itc_percent_lower_uppercase(std::string str)
 {
