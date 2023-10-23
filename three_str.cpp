@@ -1,6 +1,7 @@
 #include "str_easy.h"
 
-std::string itc_three_str(std::string str1, std::string str2, std::string str3) {
+std::string itc_three_str(std::string str1, std::string str2, std::string str3)
+{
     int pos = itc_find_str(str1, str2);
     while (pos != -1) 
     {
