@@ -1,6 +1,6 @@
 #include "str_easy.h"
 
-int itc_max_char_on_end(std::string str)
+int max_char_on_end(std::string str)
 {
     int max = 0;
     int current = 0;
